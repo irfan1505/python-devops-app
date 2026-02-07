@@ -5,4 +5,5 @@ app = Flask(__name__)
 def home():
     return "Hello from AWS DevOps 🚀"
 
+
 app.run(host="0.0.0.0", port=5000)
